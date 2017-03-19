@@ -19,6 +19,9 @@ var editor = new MediumEditor('.editable', {
     buttonLabels: 'fontawesome',
     extensions: {
         'autolist': autolist
+    }, 
+    toolbar: {
+        buttons: ['h1', 'h2', 'bold', 'italic', 'quote', 'pre', 'unorderedlist','orderedlist']
     }
 }),
 ```
