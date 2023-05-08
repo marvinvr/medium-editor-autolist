@@ -1,7 +1,9 @@
 # Autolist Extension for [Medium Editor](https://github.com/yabwe/medium-editor)
 ### Simple implementation
+
 **Installation**
-```
+
+```sh
 bower install medium-editor-autolist --save
 ```
 
@@ -13,7 +15,7 @@ bower install medium-editor-autolist --save
 ```
 **Add the extension**
 
-```
+```javascript
 var autolist = new AutoList();
 var editor = new MediumEditor('.editable', {
     buttonLabels: 'fontawesome',
