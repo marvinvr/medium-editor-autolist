@@ -22,7 +22,7 @@
         this.base.execAction('delete');
         this.base.execAction('insertorderedlist');
       }
-      else if (/^\s*\*\s/.test(list_start) && this.base.getExtensionByName('unorderedlist')){
+      else if (/^\s*[*-]\s/.test(list_start) && this.base.getExtensionByName('unorderedlist')){
         this.base.execAction('delete');
         this.base.execAction('delete');
         this.base.execAction('insertunorderedlist');
